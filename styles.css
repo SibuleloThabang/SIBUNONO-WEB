@@ -1,0 +1,174 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+#contact-section {
+  background-color: gold;
+  color: black;
+  padding: 10px;
+  text-align: center;
+}
+
+.contact-info {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+/* */
+
+#main-section {
+  background-color: black;
+  color: white;
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.company-logo {
+  max-width: 100px; /* Adjust the size of the logo */
+  margin-right: 40px;
+}
+
+.section-content {
+  display: flex;
+  align-items: center; /* Align items vertically in the center */
+}
+
+.section-text {
+  display: flex;
+  align-items: center;
+}
+
+.section-text p {
+  margin-right: 40px; /* Add space between texts */
+}
+
+.quote-button {
+  background-color: gold;
+  color: black;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 40px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+#background-section {
+  background-image: url('C.jpg'); /* Replace 'background.jpg' with the actual file path or URL of your background image */
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; /* Ensures the background remains fixed while scrolling */
+  height: 114vh; /* Adjusted to cover the entire viewport height */
+}
+
+
+/* Request */
+/* Previous styles */
+
+#ride-request-section {
+  background-color: rgba(0, 0, 0, 0.8); /* Background color with transparency */
+  color: white;
+  padding: 20px;
+  display: flex;
+  flex-direction: column; /* Stack items from top to bottom */
+  align-items: center; /* Center items horizontally */
+}
+
+.ride-request-item {
+  background-color: rgba(255, 255, 255, 0.2); /* Item background color with transparency */
+  border-radius: 0px;
+  margin: 10px;
+  padding: 15px;
+  text-align: center;
+  width: 400px;
+}
+
+#head-request {
+  background-color: rgba(255, 255, 255, 0.2); /* Item background color with transparency */
+  border-radius: 10px 10px 0 0;
+  margin: 10px;
+  padding: 15px;
+  text-align: center;
+  width: 400px;
+}
+
+.location-icon {
+  font-size: 24px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+
+.calendar-icon, .clock-icon {
+  font-size: 24px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  margin-left: -10px;
+}
+#bottom-request {
+  background-color: rgba(255, 255, 255, 0.2); /* Item background color with transparency */
+  border-radius: 0px 0px 10px 10px;
+  margin: 10px;
+  padding: 15px;
+  text-align: center;
+  width: 400px;
+}
+
+
+
+#pickup-address {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.trip-options {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input[type="radio"] {
+  margin-bottom: 5px;
+  margin-right: 5px;
+}
+
+.book-now-button {
+  background-color: gold;
+  color: black;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+.book-now-button:hover {
+  background-color: #ffd700; /* Lighter gold on hover */
+}
+
+#about-us-section {
+  background-color: #000000; /* Light background color */
+  padding: 20px;
+}
+
+#about-us-section h2 {
+  color: rgb(255, 255, 255);
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+#about-us-section p {
+  color: goldenrod; /* Darker text color */
+  font-size: 16px;
+  line-height: 1.6; /* Line height for better readability */
+}
